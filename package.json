@@ -1,0 +1,38 @@
+{
+  "name": "portfolio-react",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "aos": "^2.2.0",
+    "compass-mixins": "^0.12.10",
+    "material-ui": "^0.20.0",
+    "react": "^16.2.0",
+    "react-anchor-link-smooth-scroll": "^1.0.9",
+    "react-dom": "^16.2.0",
+    "react-modal": "^3.4.4",
+    "react-page-scroller": "^1.2.0",
+    "react-parallax": "^1.6.2",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "react-scroll-parallax": "^1.3.3",
+    "react-scrollable-anchor": "^0.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "main": "index.js",
+  "author": "juan carlos collins",
+  "homepage": "https://juancarlucci.github.io/react-portfolio/",
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}

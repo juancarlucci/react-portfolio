@@ -1,0 +1,40 @@
+.billboard-contents {
+     grid-area: billboard-contents;
+     grid-column: 2 / span 7;
+     text-align: center;
+}
+ .billboard-box {
+     padding: 1em 0;
+     background-color: #d3d3d3d9;
+     height: 300px;
+}
+ .title {
+     font-size: 3.5em;
+     padding: .5em;
+     text-transform: uppercase;
+     font-weight: 500;
+}
+ .sub-title {
+     margin-bottom: 2em;
+     font-weight: 500;
+}
+ .title-description {
+     color: slategray;
+     padding: 1em;
+     font-size: 1.75em;
+     max-width: 590px;
+     margin: 0 auto;
+}
+/* Smartphones (portrait and landscape) ----------- */
+ @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+     .billboard-box {
+         height: auto;
+    }
+     .title{
+         font-size: 2.3em;
+    }
+     .title-description {
+         font-size: 1.3em;
+         padding: 0.7em;
+    }
+}

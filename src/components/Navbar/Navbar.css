@@ -1,0 +1,83 @@
+
+.navbar {
+    position:fixed;
+    z-index: 1000;
+    left:0px;
+    top:0px;
+    height:57px;
+    width:100%;
+    background:rgb(0, 0, 0, .4);
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+
+ }
+
+.navbar-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid white;
+    height: 100%;
+    width: 100%;
+}
+
+ .navbar-line div {
+    margin: 0 5px 0 5px;
+ }
+
+ .navbar a {
+     text-decoration: none;
+     color: white;
+ }
+
+ .navbar a:hover {
+    color: rgb(69, 69, 69);
+}
+
+.navbar img{
+    padding: 4px 0 4px 0;
+    margin: 0 5px 0 5px;
+    background-color: rgb(0, 0, 0, 0.75);
+}
+
+.ui.secondary.pointing.menu {
+  /* height: 260px; */
+  /* background-color: var(--main-dark-bg-color); */
+  /* background-image: url("./images/bg1.png"); */
+  background-image: url("../../images/bg-abstract.png");
+  background-repeat: no-repeat;
+  background-size: stretch;
+  background-position: center;
+  margin-left: 0 !important;
+  margin-right: 0;
+  color: var(--main-light-text-color);
+}
+
+.ui.secondary.pointing.menu a {
+  color: var(--main-light-text-color);
+}
+
+.ui.secondary.pointing.menu a:hover {
+  color: var(--main-secondary-color) !important;
+}
+
+.ui.secondary.pointing.menu .active.item {
+    border-color: var(--main-secondary-color)!important;
+    color: var(--main-secondary-color)!important;
+}
+
+.active{
+  background-color: red;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */
+   #navbar {
+     width: 360px;
+   }
+}

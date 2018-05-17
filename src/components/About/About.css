@@ -1,0 +1,60 @@
+/* CARD STYLE */
+ .card-grid2 {
+     display: grid;
+     justify-content: space-evenly;
+     grid-template-columns: 30% 30%;
+     grid-gap: 20px;
+     padding-bottom: 2em;
+}
+ .about {
+     background-color: #4d4d4d;
+}
+ .about-title {
+     font-weight: 400;
+     padding-bottom: 2em;
+}
+ .about-intro {
+     margin: 4em auto;
+     max-width: 54%;
+     padding-top: 6em;
+}
+ .about-description {
+     padding-bottom: 2em;
+}
+.about-skills {
+  text-align: left;
+}
+ #jc-img {
+     width: 84px;
+     height: 112px;
+     border-radius: 4px;
+     margin: 20px 30px;
+}
+ .card-box2 {
+     padding-bottom: 6em;
+}
+/* Smartphones (portrait and landscape) ----------- */
+ @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+     .card-grid2 {
+         width: 100%;
+         display: block;
+    }
+    .card-box2 {
+      padding-bottom: 0;
+    }
+    .about-title {
+        padding-bottom: 0.5em;
+   }
+     .about-intro {
+         width: 100%;
+         max-width: 100%;
+    }
+     .about-description {
+         display: block;
+         padding-bottom: 0.5em;
+    }
+     #jc-img {
+         width: 84px;
+         height: 112.5px;
+    }
+}
