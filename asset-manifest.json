@@ -1,13 +1,10 @@
 {
   "main.css": "static/css/main.b05b46ba.css",
   "main.css.map": "static/css/main.b05b46ba.css.map",
-  "main.js": "static/js/main.da41caf5.js",
-  "main.js.map": "static/js/main.da41caf5.js.map",
-  "static/media/3d-branding.png": "static/media/3d-branding.1f62cb34.png",
-  "static/media/3d-logo.svg": "static/media/3d-logo.8ef757d9.svg",
+  "main.js": "static/js/main.b31e00ef.js",
+  "main.js.map": "static/js/main.b31e00ef.js.map",
   "static/media/bg-abstract.png": "static/media/bg-abstract.792c4817.png",
   "static/media/butter-map-branding.png": "static/media/butter-map-branding.17c6a19a.png",
-  "static/media/codeinsight-branding.png": "static/media/codeinsight-branding.4a95aec4.png",
   "static/media/community-branding.png": "static/media/community-branding.16bc7b26.png",
   "static/media/custom.png": "static/media/custom.569f7428.png",
   "static/media/drawing02.jpg": "static/media/drawing02.8978f004.jpg",
@@ -15,7 +12,6 @@
   "static/media/inspect-branding.png": "static/media/inspect-branding.6e9697cb.png",
   "static/media/jc.jpg": "static/media/jc.f1899e59.jpg",
   "static/media/monument-branding.png": "static/media/monument-branding.d35209f8.png",
-  "static/media/pre-check-branding.png": "static/media/pre-check-branding.a0c01e8f.png",
   "static/media/skills.png": "static/media/skills.f3eb9da9.png",
   "static/media/star-bg.png": "static/media/star-bg.c421175b.png",
   "static/media/world-cup-branding.png": "static/media/world-cup-branding.5fe36b82.png"
